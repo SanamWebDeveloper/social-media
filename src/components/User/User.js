@@ -4,6 +4,7 @@ import userData from '../../userData'
 import { useState } from 'react';
 import Data from '../Data/Data';
 import Calculation from '../Calculation/Calculation';
+import Extra from '../Extra/Extra';
 
 
 
@@ -20,6 +21,9 @@ const User = () => {
 
     return (
         <div className="users-container">
+            <div>
+                <Extra></Extra>
+            </div>
             <div className="users-div-left">
                 {users.map(x => <Data data={x} handleEvent={handleEvent} ></Data> )}
             </div>

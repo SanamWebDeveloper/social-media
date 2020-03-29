@@ -1,3 +1,27 @@
-.calculation{
-    border: 2 px solid palegreen;
+.calculation-section{
+    margin-top: 40px;
+    border: 30px solid #364F6B;
+    color: white;
+    background-color:#75ececc5;
+    border-radius: 10px;
+    height: 310px;
+    width: 450px;
+
+    position: fixed;
+}
+.calculation-header{
+    background-color: #3FC1CF;
+    text-align: center;
+    padding-bottom: 1px;
+    padding-top: 1px;
+
+    height: 25%;
+}
+.calculation-body{
+    background-color: #FC5185;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+    height: 65%;
 }
