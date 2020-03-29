@@ -20,7 +20,6 @@
     width: 70%;
     color: royalblue;
     background-color: #ffe066;
-    margin-left: 0px;
     padding: 5px;
     padding-left:50px ;
 }
@@ -46,7 +45,6 @@
     color: lightgreen;
 }
 .user-image-div img:hover{
-    
     width: 500px;
     height: 500px;
     transition: .5s ease;
