@@ -1,0 +1,11 @@
+.users-container{
+    display: flex;
+    justify-content: center;
+}
+.users-div-left{
+
+}
+.users-div-right{
+    border: 2px solid springgreen;
+    margin-left: 35px;
+}  
